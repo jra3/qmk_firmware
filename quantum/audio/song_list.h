@@ -46,6 +46,8 @@
     Q__NOTE(_F3)
 */
 
+#define CALIBRATE B__NOTE(_A4)
+
 #define STARTUP_SOUND E__NOTE(_E6), E__NOTE(_A6), ED_NOTE(_E7),
 
 #define GOODBYE_SOUND E__NOTE(_E7), E__NOTE(_A6), ED_NOTE(_E6),
@@ -134,6 +136,34 @@
     H__NOTE(_BF5), H__NOTE(_C6), H__NOTE(_DF6), H__NOTE(_A5), H__NOTE(_BF5), H__NOTE(_GF5), W__NOTE(_F5), W__NOTE(_F5), W__NOTE(_F5), W__NOTE(_F5), H__NOTE(_GF5), H__NOTE(_F5), H__NOTE(_EF5), H__NOTE(_C5), B__NOTE(_DF5), W__NOTE(_BF4), Q__NOTE(_BF5), Q__NOTE(_C6), Q__NOTE(_DF6), Q__NOTE(_A5), Q__NOTE(_BF5), Q__NOTE(_A5), Q__NOTE(_GS5), Q__NOTE(_A5), Q__NOTE(_C6), Q__NOTE(_BF5), Q__NOTE(_GF5), Q__NOTE(_F5), Q__NOTE(_GF5), Q__NOTE(_E5), Q__NOTE(_F5), Q__NOTE(_BF5), Q__NOTE(_A5), Q__NOTE(_AF5), Q__NOTE(_G5), Q__NOTE(_GF5), Q__NOTE(_F5), Q__NOTE(_E5), Q__NOTE(_EF5), Q__NOTE(_D5), Q__NOTE(_DF5), Q__NOTE(_C5), Q__NOTE(_DF5), Q__NOTE(_C5), Q__NOTE(_B4), Q__NOTE(_C5), Q__NOTE(_F5), Q__NOTE(_E5), Q__NOTE(_EF5), B__NOTE(_DF5), W__NOTE(_BF4), W__NOTE(_BF5), W__NOTE(_BF5), W__NOTE(_BF5), BD_NOTE(_AF5), W__NOTE(_DF5), H__NOTE(_BF4), H__NOTE(_C5), H__NOTE(_DF5), H__NOTE(_GF5), H__NOTE(_GF5), BD_NOTE(_F5), W__NOTE(_EF5), H__NOTE(_F5), H__NOTE(_EF5), H__NOTE(_DF5), H__NOTE(_A4), B__NOTE(_AF4), \
         W__NOTE(_DF5), W__NOTE(_EF5), H__NOTE(_F5), H__NOTE(_EF5), H__NOTE(_DF5), H__NOTE(_EF5), BD_NOTE(_F5),
 
+#define COIN_SOUND \
+    E__NOTE(_A5  ),      \
+    HD_NOTE(_E6  ),
+
+#define ONE_UP_SOUND \
+    Q__NOTE(_E6  ),  \
+    Q__NOTE(_G6  ),  \
+    Q__NOTE(_E7  ),  \
+    Q__NOTE(_C7  ),  \
+    Q__NOTE(_D7  ),  \
+    Q__NOTE(_G7  ),
+
+#define SONIC_RING \
+    E__NOTE(_E6),  \
+    E__NOTE(_G6),  \
+    HD_NOTE(_C7),
+
+#define ZELDA_PUZZLE \
+    Q__NOTE(_G5),     \
+    Q__NOTE(_FS5),    \
+    Q__NOTE(_DS5),     \
+    Q__NOTE(_A4),    \
+    Q__NOTE(_GS4),     \
+    Q__NOTE(_E5),     \
+    Q__NOTE(_GS5),     \
+    HD_NOTE(_C6),
+
+
 /* Removed sounds
  +   This list is here solely for compatibility, so that removed songs don't just break things
  *   If you think that any of these songs were wrongfully removed, let us know and provide
@@ -145,11 +175,6 @@
 #define IN_LIKE_FLINT
 #define IMPERIAL_MARCH
 #define BASKET_CASE
-#define COIN_SOUND
-#define ONE_UP_SOUND
-#define SONIC_RING
-#define ZELDA_PUZZLE
-#define ZELDA_TREASURE
 #define OVERWATCH_THEME
 #define MARIO_THEME
 #define MARIO_GAMEOVER
